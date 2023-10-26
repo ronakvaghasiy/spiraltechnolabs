@@ -1,0 +1,28 @@
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://spiraltechnolabs.com/wp-content/uploads/2023/10/banner_h_3_bg-optimized.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  }
+  
+  .main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    color: #fff5f5;
+    margin-bottom: 2rem;
+  }

@@ -1,0 +1,48 @@
+.tableContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .tableHead {
+    background-color: #042851;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .tableHead th {
+    padding: 10px;
+  }
+  
+  .tableHead th:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .tableHead th:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .tableHead th:not(:last-child) {
+    border-right: 1px solid #0050c8;
+  }
+  
+  .tableHead th:hover {
+    background-color: #0050c8;
+  }
+  
+  .tableHead th:hover + th {
+    border-right: 1px solid #0050c8;
+  }
+  
+  .tableHead th:first-child:hover {
+    border-right: 1px solid #0050c8;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .tableHead th:last-child:hover {
+    border-radius: 0 5px 5px 0;
+  }
+  

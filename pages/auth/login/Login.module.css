@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: url('https://spiraltechnolabs.com/wp-content/uploads/2023/10/banner_h_3_bg-optimized.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.loginBox {
+  height: 400px;
+  width: 400px;
+  border: 3px solid #14044d;
+  border-radius: 50px;
+  padding: 30px;
+  margin: 30px;
+  background-color: #dfdfdf;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #14044d;
+}
+
+.input {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.userInfo {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.loginButton {
+  background-color: #002855;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #0050c8;
+}
+
+.logoutButton {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #e63900;
+}
